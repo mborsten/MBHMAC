@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2CDFBB08174B844B00E21D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFBB07174B844B00E21D79 /* Foundation.framework */; };
-		2CDFBB0D174B844C00E21D79 /* MBHMAC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CDFBB0C174B844C00E21D79 /* MBHMAC.h */; };
-		2CDFBB0F174B844C00E21D79 /* MBHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFBB0E174B844C00E21D79 /* MBHMAC.m */; };
 		2CDFBB17174B844C00E21D79 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFBB16174B844C00E21D79 /* SenTestingKit.framework */; };
-		2CDFBB19174B844C00E21D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFBB18174B844C00E21D79 /* UIKit.framework */; };
 		2CDFBB1A174B844C00E21D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFBB07174B844B00E21D79 /* Foundation.framework */; };
 		2CDFBB1D174B844C00E21D79 /* libMBHMAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFBB04174B844B00E21D79 /* libMBHMAC.a */; };
 		2CDFBB23174B844C00E21D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDFBB21174B844C00E21D79 /* InfoPlist.strings */; };
 		2CDFBB26174B844C00E21D79 /* MBHMACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFBB25174B844C00E21D79 /* MBHMACTests.m */; };
+		2CDFBB31174B84F500E21D79 /* NSString+MBHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFBB30174B84F500E21D79 /* NSString+MBHMAC.m */; };
+		2CDFBB32174B84F500E21D79 /* NSString+MBHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFBB30174B84F500E21D79 /* NSString+MBHMAC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				2CDFBB0D174B844C00E21D79 /* MBHMAC.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,15 +43,14 @@
 		2CDFBB04174B844B00E21D79 /* libMBHMAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBHMAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDFBB07174B844B00E21D79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CDFBB0B174B844C00E21D79 /* MBHMAC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBHMAC-Prefix.pch"; sourceTree = "<group>"; };
-		2CDFBB0C174B844C00E21D79 /* MBHMAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBHMAC.h; sourceTree = "<group>"; };
-		2CDFBB0E174B844C00E21D79 /* MBHMAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBHMAC.m; sourceTree = "<group>"; };
 		2CDFBB15174B844C00E21D79 /* MBHMACTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBHMACTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDFBB16174B844C00E21D79 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2CDFBB18174B844C00E21D79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2CDFBB20174B844C00E21D79 /* MBHMACTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBHMACTests-Info.plist"; sourceTree = "<group>"; };
 		2CDFBB22174B844C00E21D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CDFBB24174B844C00E21D79 /* MBHMACTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBHMACTests.h; sourceTree = "<group>"; };
 		2CDFBB25174B844C00E21D79 /* MBHMACTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBHMACTests.m; sourceTree = "<group>"; };
+		2CDFBB2F174B84F500E21D79 /* NSString+MBHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MBHMAC.h"; sourceTree = "<group>"; };
+		2CDFBB30174B84F500E21D79 /* NSString+MBHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MBHMAC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +67,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CDFBB17174B844C00E21D79 /* SenTestingKit.framework in Frameworks */,
-				2CDFBB19174B844C00E21D79 /* UIKit.framework in Frameworks */,
 				2CDFBB1A174B844C00E21D79 /* Foundation.framework in Frameworks */,
 				2CDFBB1D174B844C00E21D79 /* libMBHMAC.a in Frameworks */,
 			);
@@ -103,7 +99,6 @@
 			children = (
 				2CDFBB07174B844B00E21D79 /* Foundation.framework */,
 				2CDFBB16174B844C00E21D79 /* SenTestingKit.framework */,
-				2CDFBB18174B844C00E21D79 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,9 +106,9 @@
 		2CDFBB09174B844B00E21D79 /* MBHMAC */ = {
 			isa = PBXGroup;
 			children = (
-				2CDFBB0C174B844C00E21D79 /* MBHMAC.h */,
-				2CDFBB0E174B844C00E21D79 /* MBHMAC.m */,
 				2CDFBB0A174B844C00E21D79 /* Supporting Files */,
+				2CDFBB2F174B84F500E21D79 /* NSString+MBHMAC.h */,
+				2CDFBB30174B84F500E21D79 /* NSString+MBHMAC.m */,
 			);
 			path = MBHMAC;
 			sourceTree = "<group>";
@@ -243,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDFBB0F174B844C00E21D79 /* MBHMAC.m in Sources */,
+				2CDFBB31174B84F500E21D79 /* NSString+MBHMAC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CDFBB26174B844C00E21D79 /* MBHMACTests.m in Sources */,
+				2CDFBB32174B84F500E21D79 /* NSString+MBHMAC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +332,10 @@
 				DSTROOT = /tmp/MBHMAC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBHMAC/MBHMAC-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -348,6 +348,10 @@
 				DSTROOT = /tmp/MBHMAC.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBHMAC/MBHMAC-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
